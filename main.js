@@ -1,5 +1,11 @@
 // Write your code below
-
+function hasAvailableSeats(passengers) {
+    if (passengers.length < 4) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 
